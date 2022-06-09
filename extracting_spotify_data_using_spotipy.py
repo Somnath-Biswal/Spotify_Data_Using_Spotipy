@@ -3,11 +3,11 @@
 
 # import spotipy and the credentials
 import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
+from spotipy.oauth2 import SpotifyClientCredentials # these module has a function named SpotifyClientCredentials
 
 # Your Spotify credentials: You can get this after setting up a Spotify Developer's account
 
-cid = 'your client id'
+cid = 'your client id' # spotify credentials has two parts client id and secret key for authorization
 secret = 'client secret'
 
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret) # input credentials
